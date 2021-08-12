@@ -71,12 +71,13 @@
 }
 
 .gallery__item--title {
+	display: flex; 
+	justify-content: center;
 	height: 3rem;
 	line-height: 3rem;
 	font-size: var(--font-big);
 	vertical-align: center;
 	padding: 2rem;
-	text-decoration: underline;
 }
 
 .gallery__item--description {
