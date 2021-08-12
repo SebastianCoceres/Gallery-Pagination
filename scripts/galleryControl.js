@@ -40,8 +40,7 @@
 
 
  		if (i >= (index * maxItem) - maxItem && i < index * maxItem) {
- 			// if i greater than and equal to (index*maxItem)-maxItem;
- 			// means  (1*8)-8=0 if index=2 then (2*8)-8=8
+
  			galleryItems[i].classList.remove("hide");
  			galleryItems[i].classList.add("show");
  		}
