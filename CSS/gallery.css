@@ -49,12 +49,8 @@
 	position: relative;
 	border-radius: 1rem 1rem 0 0;
 	object-fit: cover;
-	filter: blur(2px);
 }
 
-.gallery__items--item img:hover {
-	filter: blur(0px);
-}
 
 
 .gallery__item--caption {
@@ -111,3 +107,15 @@
 .gallery__item--tag a:hover {
 	color: rgb(86, 86, 219);
 }
+
+@media (min-width: 1024px) { 
+
+	.gallery__items--item img{
+		filter: blur(2px);
+	}
+	
+	.gallery__items--item img:hover {
+		filter: blur(0px);
+	}
+	
+ }
