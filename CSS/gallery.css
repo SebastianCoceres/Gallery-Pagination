@@ -63,8 +63,11 @@
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
+	height: 8rem;
 	color: #ffffff;
 	text-shadow: 1px 1px 2px black;
+	overflow: hidden;
+
 }
 
 .gallery__item--title {
@@ -77,11 +80,10 @@
 }
 
 .gallery__item--description {
-	font-size: var(--font-lit);
+	font-size: 0;
 	color: var(--black-text);
 	padding: 2rem;
 	overflow: hidden;
-
 }
 
 .gallery__item--tag {
@@ -92,6 +94,8 @@
 	align-items: center;
 }
 
+
+
 .gallery__item--tag a {
 	display: inline-block;
 	width: 10rem;
@@ -101,4 +105,8 @@
 	vertical-align: center;
 	font-size: var(--font-mid);
 	color: white;
+}
+
+.gallery__item--tag a:hover {
+	color: rgb(86, 86, 219);
 }
